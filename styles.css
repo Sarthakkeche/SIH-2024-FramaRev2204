@@ -1,0 +1,90 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('farm5.jpg');
+    background-size: cover;
+    color: rgb(86, 165, 164);
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.logo img {
+    width: 60px;
+    border-radius: 50%;
+    height: auto;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #325403;
+    font-family: 'Arial', serif;
+}
+
+.hero p {
+    font-size: 24px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+
+    justify-content: space-around;
+    margin: 80px 0;
+}
+
+.card {
+    text-align: center;
+    margin: 0 50px;
+}
+
+.card img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #000000;
+}
+.pointer-link { 
+    cursor: pointer; 
+} 
